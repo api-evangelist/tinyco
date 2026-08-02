@@ -1,4 +1,16 @@
 aid: tinyco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tinyco.png
 name: TinyCo
 description: TinyCo is a company surfaced as a portfolio company of a16z and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,12 +23,21 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+x-enrichment-finding: 'No live API surface. Probed 2026-07-21: tinyco.com does not resolve
+  (NXDOMAIN); www.tinyco.com CNAMEs to jamcity.com (no TLS service for the tinyco host).
+  TinyCo was a mobile-game studio (Tiny Tower, Marvel Avengers Academy) acquired by
+  Jam City in 2016 and has no independent developer portal, documentation, or API.'
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
